@@ -1,7 +1,4 @@
-from data import *
 from download import *
-from setting import *
-from title import *
 from sessdata import *
 
 if __name__ == "__main__":
