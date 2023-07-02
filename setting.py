@@ -1,10 +1,10 @@
 from cid import *
 
-def settings(bvid,sessdata):
+def settings(bvid, page, sessdata):
     url = 'https://api.bilibili.com/x/player/playurl'
     params = {
         'bvid': bvid,
-        'cid': get_cid(bvid),
+        'cid': get_cid(bvid, page),
         'qn': '0',
         'fnval': '80',
         'fnver': '0',

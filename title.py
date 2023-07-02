@@ -11,7 +11,7 @@ def retitle(title):
     title = title.strip()
     return title
 
-def get_title(bvid):
+def get_title(bvid,page):
     url = 'https://api.bilibili.com/x/web-interface/view'
     params = {'bvid': f'{bvid}'}
     headers = {'referer': 'https://www.bilibili.com'}
@@ -21,7 +21,7 @@ def get_title(bvid):
     info = response.content
     info = json.loads(info)
 
-    title = info["data"]["title"]
+    title = info["data"]["pages"][page]["part"]
     # Replace the illegal string
     title = retitle(title)
 

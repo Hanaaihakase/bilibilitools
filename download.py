@@ -38,18 +38,18 @@ def download_from_data(bvid, data, save_path, save_title, save_type1, save_type2
     print(f"The {save_type1} url of {bvid} is {url}")
     download_from_url(url, save_path, save_title, save_type1, save_type2, headers, save_type1)
 
-def download_video(bvid, sessdata):
+def download_video(bvid, sessdata, page):
     url,params,headers = settings(bvid,sessdata)
 
     bv_title = params['bvid']
     save_path = fr".\BV"
 
     # Get the information title
-    info_title = get_title(bvid)
-    save_title = f"{info_title}_{bv_title}"
+    info_title = get_title(bvid, page)
+    save_title = f"{info_title}_{bv_title}_{page}"
 
     # Save the data json
-    data = get_data(url,params,headers)
+    data = get_data(url, params, headers)
 
     # Get the video url and download the video of mp4
     download_from_data(bvid, data, save_path, save_title, "video", "m4s", headers)
@@ -61,18 +61,18 @@ def download_video(bvid, sessdata):
     subprocess.call(['ffmpeg', '-i', os.path.join(save_path, f'{save_title}_video.m4s'), '-i', os.path.join(save_path, f'{save_title}_audio.m4s'), '-c:v', 'copy', '-c:a', 'copy', '-f', 'mp4', os.path.join(save_path, f'{save_title}.mp4')])
     print(f"The dowloading of {save_title}.mp4 has been done!")
 
-def download_audio(bvid, sessdata):
-    url,params,headers = settings(bvid,sessdata)
+def download_audio(bvid, page, sessdata):
+    url,params,headers = settings(bvid, page, sessdata)
 
-    bv_title = params['bvid']
+    bv_title = bvid
     save_path = fr".\BV"
 
     # Get the information title
-    info_title = get_title(bvid)
-    save_title = f"{info_title}_{bv_title}"
+    info_title = get_title(bvid, page)
+    save_title = f"{info_title}_{bv_title}_{page}"
 
     # Save the data json
-    data = get_data(url,params,headers)
+    data = get_data(url, params, headers)
 
     # Get the audio url and download the audio of mp4
     download_from_data(bvid, data, save_path, save_title, "audio", "m4a", headers) 
