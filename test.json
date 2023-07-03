@@ -1,0 +1,291 @@
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "bvid": "BV1fe4y1g7uP",
+        "aid": 648195017,
+        "videos": 13,
+        "tid": 130,
+        "tname": "音乐综合",
+        "copyright": 2,
+        "pic": "http://i0.hdslb.com/bfs/archive/057376e23919eef3c02e651e10370f11bf56f83a.png",
+        "title": "【Project SEKAI】朝比奈まふゆ(cv：田辺留依) anvo solo ver. 合集",
+        "pubdate": 1669740115,
+        "ctime": 1669740115,
+        "desc": "Project SEKAI\n朝比奈まふゆ(cv：田辺留依)\n本视频素材均来源于网络 侵删\n--------------------------\n本系列仅收录游戏内可使用anvo劵购买的solo ver.\n其他角色已收录完毕，详情请直接搜索角色名+anvo或查看本人主页内已整理好的收藏夹",
+        "desc_v2": [
+            {
+                "raw_text": "Project SEKAI\n朝比奈まふゆ(cv：田辺留依)\n本视频素材均来源于网络 侵删\n--------------------------\n本系列仅收录游戏内可使用anvo劵购买的solo ver.\n其他角色已收录完毕，详情请直接搜索角色名+anvo或查看本人主页内已整 理好的收藏夹",
+                "type": 1,
+                "biz_id": 0
+            }
+        ],
+        "state": 0,
+        "duration": 1581,
+        "rights": {
+            "bp": 0,
+            "elec": 0,
+            "download": 1,
+            "movie": 0,
+            "pay": 0,
+            "hd5": 1,
+            "no_reprint": 0,
+            "autoplay": 1,
+            "ugc_pay": 0,
+            "is_cooperation": 0,
+            "ugc_pay_preview": 0,
+            "no_background": 0,
+            "clean_mode": 0,
+            "is_stein_gate": 0,
+            "is_360": 0,
+            "no_share": 0,
+            "arc_pay": 0,
+            "free_watch": 0
+        },
+        "owner": {
+            "mid": 351708843,
+            "name": "lgzzz_",
+            "face": "https://i0.hdslb.com/bfs/face/b4a1dabe4718dda6e256dd0f04511acd5dd5e6c6.jpg"
+        },
+        "stat": {
+            "aid": 648195017,
+            "view": 10931,
+            "danmaku": 2,
+            "reply": 17,
+            "favorite": 787,
+            "coin": 90,
+            "share": 73,
+            "now_rank": 0,
+            "his_rank": 0,
+            "like": 322,
+            "dislike": 0,
+            "evaluation": "",
+            "argue_msg": "",
+            "vt": 0
+        },
+        "dynamic": "",
+        "cid": 907293405,
+        "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+        },
+        "premiere": None,
+        "teenage_mode": 0,
+        "is_chargeable_season": False,
+        "is_story": False,
+        "is_upower_exclusive": False,
+        "is_upower_play": False,
+        "enable_vt": 0,
+        "no_cache": False,
+        "pages": [
+            {
+                "cid": 907293405,
+                "page": 1,
+                "from": "vupload",
+                "part": "再生",
+                "duration": 103,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n2211300122ikkhll75r2o1qutxgd0nj_firsti.jpg"
+            },
+            {
+                "cid": 907291906,
+                "page": 2,
+                "from": "vupload",
+                "part": "アイディスマイル",
+                "duration": 136,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i1.hdslb.com/bfs/storyff/n221130062wggzsxcveucxw5kj7g9d0g_firsti.jpg"
+            },
+            {
+                "cid": 907293868,
+                "page": 3,
+                "from": "vupload",
+                "part": "ジャックポットサッドガール",
+                "duration": 84,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n221130142vc0n8etj8b7dbinkscivnw_firsti.jpg"
+            },
+            {
+                "cid": 907291384,
+                "page": 4,
+                "from": "vupload",
+                "part": "ヴィラン",
+                "duration": 151,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n221130158ajx4b33uzkx1dxndh40a0l_firsti.jpg"
+            },
+            {
+                "cid": 907296853,
+                "page": 5,
+                "from": "vupload",
+                "part": "カトラリー",
+                "duration": 112,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n2211300834eiixn7rddcl2a6u4p90yn_firsti.jpg"
+            },
+            {
+                "cid": 907292497,
+                "page": 6,
+                "from": "vupload",
+                "part": "カナデトモスソラ",
+                "duration": 115,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n221130013v396iub0oo8811to1uwdxq_firsti.jpg"
+            },
+            {
+                "cid": 907292871,
+                "page": 7,
+                "from": "vupload",
+                "part": "バグ",
+                "duration": 129,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n221130143dot431la0g70abyzmvwizf_firsti.jpg"
+            },
+            {
+                "cid": 907295456,
+                "page": 8,
+                "from": "vupload",
+                "part": "ビターチョコデコレーション",
+                "duration": 129,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n221130141ppvjyjqlxni035v9ytl2kj_firsti.jpg"
+            },
+            {
+                "cid": 907296030,
+                "page": 9,
+                "from": "vupload",
+                "part": "悔やむと書いてミライ",
+                "duration": 101,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n2211300710dxibjoekgxgg1w7skurc0_firsti.jpg"
+            },
+            {
+                "cid": 907296394,
+                "page": 10,
+                "from": "vupload",
+                "part": "乙女解剖",
+                "duration": 112,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n2211300710943mv43ex7712k7uiyj1h_firsti.jpg"
+            },
+            {
+                "cid": 909273115,
+                "page": 11,
+                "from": "vupload",
+                "part": "うっせぇわ",
+                "duration": 136,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i0.hdslb.com/bfs/storyff/n221201062bcz1556u6n4pdlueohmifu_firsti.jpg"
+            },
+            {
+                "cid": 909280508,
+                "page": 12,
+                "from": "vupload",
+                "part": "メリ ュー",
+                "duration": 141,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n221201142koj70ufihyql10tzs65j9f_firsti.jpg"
+            },
+            {
+                "cid": 940414869,
+                "page": 13,
+                "from": "vupload",
+                "part": "愛して愛して愛 して",
+                "duration": 132,
+                "vid": "",
+                "weblink": "",
+                "dimension": {
+                    "width": 1920,
+                    "height": 1080,
+                    "rotate": 0
+                },
+                "first_frame": "http://i2.hdslb.com/bfs/storyff/n221228a23fqm70n2wz4wxw1qxb3qf1r_firsti.jpg"
+            }
+        ],
+        "subtitle": {
+            "allow_submit": False,
+            "list": []
+        },
+        "is_season_display": False,
+        "user_garb": {
+            "url_image_ani_cut": ""
+        },
+        "honor_reply": {},
+        "like_icon": "",
+        "need_jump_bv": False
+    }
+}

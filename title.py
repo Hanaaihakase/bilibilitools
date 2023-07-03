@@ -1,6 +1,8 @@
 import re
 import requests
 import json
+from setting import *
+from data import *
 
 def retitle(title):
     # 匹配非法字符，并将其替换为空格
@@ -11,19 +13,26 @@ def retitle(title):
     title = title.strip()
     return title
 
-def get_title(bvid,page):
+def get_title(bvid):
     url = 'https://api.bilibili.com/x/web-interface/view'
     params = {'bvid': f'{bvid}'}
-    headers = {'referer': 'https://www.bilibili.com'}
 
-    response = requests.get(url, params=params,headers=headers)
+    data = get_data_without_headers(url, params)
 
-    info = response.content
-    info = json.loads(info)
+    title = data["data"]["title"]
+    title = retitle(title)
+    print(f"The title is {title}")
+    return title
 
-    title = info["data"]["pages"][page]["part"]
+def get_page_title(bvid, page, sessdata):
+    url = 'https://api.bilibili.com/x/web-interface/view'
+    params,headers = settings(bvid, page, sessdata)
+
+    data = get_data(url,params,headers)
+
+    title = data["data"]["pages"][page]["part"]
     # Replace the illegal string
     title = retitle(title)
 
-    print(f"The title is {title}")
+    print(f"The page title is {title}")
     return title

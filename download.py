@@ -38,18 +38,18 @@ def download_from_data(bvid, data, save_path, save_title, save_type1, save_type2
     print(f"The {save_type1} url of {bvid} is {url}")
     download_from_url(url, save_path, save_title, save_type1, save_type2, headers, save_type1)
 
-def download_video(bvid, sessdata, page):
-    url,params,headers = settings(bvid,sessdata)
+def download_video(bvid, page, sessdata):
+    url = 'https://api.bilibili.com/x/player/playurl'
+    params,headers = settings(bvid, page, sessdata)
 
-    bv_title = params['bvid']
-    save_path = fr".\BV"
-
-    # Get the information title
-    info_title = get_title(bvid, page)
-    save_title = f"{info_title}_{bv_title}_{page}"
-
-    # Save the data json
+    # Get the data
     data = get_data(url, params, headers)
+
+    bv_title = bvid
+    save_path = fr".\BV"
+    title = get_title(bvid)
+    page_title = get_page_title(bvid, page, sessdata)
+    save_title = f"{title}_{page_title}_{bv_title}_{page}"
 
     # Get the video url and download the video of mp4
     download_from_data(bvid, data, save_path, save_title, "video", "m4s", headers)
@@ -62,17 +62,17 @@ def download_video(bvid, sessdata, page):
     print(f"The dowloading of {save_title}.mp4 has been done!")
 
 def download_audio(bvid, page, sessdata):
-    url,params,headers = settings(bvid, page, sessdata)
+    url = 'https://api.bilibili.com/x/player/playurl'
+    params,headers = settings(bvid, page, sessdata)
+
+    # Get the data
+    data = get_data(url, params, headers)
 
     bv_title = bvid
     save_path = fr".\BV"
-
-    # Get the information title
-    info_title = get_title(bvid, page)
-    save_title = f"{info_title}_{bv_title}_{page}"
-
-    # Save the data json
-    data = get_data(url, params, headers)
+    title = get_title(bvid)
+    page_title = get_page_title(bvid, page, sessdata)
+    save_title = f"{title}_{page_title}_{bv_title}_{page}"
 
     # Get the audio url and download the audio of mp4
     download_from_data(bvid, data, save_path, save_title, "audio", "m4a", headers) 
